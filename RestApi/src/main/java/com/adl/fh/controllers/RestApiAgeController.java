@@ -20,7 +20,7 @@ public class RestApiAgeController {
 		logger.info("FIND_NAME_CONTROLLER Request={}", nameRequest);
 		Map<String, Object> response = new HashMap<>();
 		response.put("STATUS", "SUCCESS");
-		response.put("MESSAGE", "My Entered Age ** : " + nameRequest.getName());
+		response.put("MESSAGE", " My Entered Age ** : " + nameRequest.getName());
 		logger.info("FIND_NAME_CONTROLLER", "SUCCESS");
 		return response;
 	}
